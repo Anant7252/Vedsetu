@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "VedSetu",
+    "slug": "VedSetu",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "VedSetu needs access to your microphone for voice input."
+      }
+    },
+    "android": {
+      "package": "com.anant7252.VedSetu",
+      "permissions": ["RECORD_AUDIO"],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "45eea38f-f2ad-4a08-8cf6-fb096d0116ab"
+      }
+    }
+  }
+}
